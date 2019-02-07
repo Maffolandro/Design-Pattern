@@ -1,5 +1,5 @@
 // Interfaccia per l'oggetto base
-public interface Component() {
+public interface Component {
 	// Metodo comune, da implementare
 	void operation();
 }
