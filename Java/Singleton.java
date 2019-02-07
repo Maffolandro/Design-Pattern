@@ -1,4 +1,4 @@
-public class Singleton() {
+public class Singleton {
 	// Istanza di riferimento
 	private static Singleton instance = null;
 	
