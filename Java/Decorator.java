@@ -1,7 +1,7 @@
 // Interfaccia per l'oggetto base
-public interface Component {
+interface Component {
 	// Metodo comune, da implementare
-	void operation();
+	public void operation();
 }
 
 // Classe astratta per decoratore
