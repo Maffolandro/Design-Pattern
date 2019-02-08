@@ -1,9 +1,11 @@
+import java.util.ArrayList;
+
 interface Component {
 	public void operation();
 }
 
-public class Composite implements Component {
-	private Component[] children = new Component[]();
+class Composite implements Component {
+	private ArrayList<Component> children = new ArrayList<Component>();
 	
 	public void operation() {
 		System.out.println("I'm a Composite!");
@@ -30,7 +32,7 @@ public class Composite implements Component {
 }
 
 
-public class Leaf implements Component {
+class Leaf implements Component {
 	public void operation() {
 		System.out.println("I'm a Leaf!")
 	}
