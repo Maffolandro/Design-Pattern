@@ -1,3 +1,43 @@
+## Welcome to this repository
+I'm planning to upload here some design pattern implementation for (mainly my own) educational purpose.
+Right now everything it's a mess (i didn't even tried to test those yet), but whenever i can i'll put some order and make a main file for each language to test the classes.
+
+As you can guess looking the repository, the codes are for both Java and Python. I'm writing those in parallel, so those may be influenced one by the other.
+Comments are lacking, i'll try to remember to put some, but for now there's not a lot.
+
+So, here's a list of planned Design Pattern:
+# liste WIP
+#### Structural
+###### High Priority
+- [x] Composite
+- [x] Decorator
+- [ ] Facade
+- [ ] Proxy
+###### Low Priority
+- [ ] Bridge
+- [ ] Delegation
+- [ ] Flyweight
+- [ ] Front Controller
+- [ ] Marker Interface
+- [ ] Twin
+
+
+#### Behavioral
+###### High Priority
+- [ ] Chain of responsibility
+- [ ] Command
+- [ ] Mediator
+- [ ] Memento
+- [ ] Observer
+- [x] State
+- [ ] Template
+- [ ] Visitor
+###### Low Priority
+- [ ] Interpreter
+- [ ] Servant
+- [ ] Strategy
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Maffolandro/Desing-Pattern/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
