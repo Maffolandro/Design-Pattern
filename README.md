@@ -1,14 +1,28 @@
 ## Welcome to this repository
 I'm planning to upload here some design pattern implementation for (mainly my own) educational purpose.
-Right now everything it's a mess (i didn't even tried to test those yet), but whenever i can i'll put some order and make a main file for each language to test the classes.
+Right now everything it's a mess (i didn't even tried to test those yet), but whenever i can i'll put some order and make a main file for each language to test and try the classes.
 
 As you can guess looking the repository, the codes are for both Java and Python. I'm writing those in parallel, so those may be influenced one by the other.
-Comments are lacking, i'll try to remember to put some, but for now there's not a lot.
+Comments are lacking, i'll try to remember to put some.
 
 So, here's a list of planned Design Pattern:
-# liste WIP
+
+#### Creational
+###### High Priority
+- [x] Abstract Factory
+- [x] Lazy Initialization
+- [ ] Dependency Injection
+- [ ] Prototype
+- [x] Singleton
+###### Low Priority
+- [ ] Builder
+- [ ] Factory Method
+- [ ] RAII
+
+
 #### Structural
 ###### High Priority
+- [ ] Adapter
 - [x] Composite
 - [x] Decorator
 - [ ] Facade
@@ -37,6 +51,19 @@ So, here's a list of planned Design Pattern:
 - [ ] Servant
 - [ ] Strategy
 
+
+#### Functional
+###### High Priority
+- [ ] Closure
+- [ ] Currying
+###### Low Priority
+- [ ] Function Composition
+- [ ] Monad
+- [ ] Generator
+
+
+#### Concurrency
+#### Architectural
 
 ## Welcome to GitHub Pages
 
