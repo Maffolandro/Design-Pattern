@@ -1,8 +1,8 @@
 ## Welcome to this repository
 I'm planning to upload here some design pattern implementation for (mainly my own) educational purpose.
-Right now everything it's a mess (i didn't even tried to test those yet), but whenever i can i'll put some order and make a main file for each language to test and try the classes.
+Right now everything is a mess (i didn't even test anything yet), but whenever i can i'll put some order and make a main file for each language to test and try the classes.
 
-As you can guess looking the repository, the codes are for both Java and Python. I'm writing those in parallel, so those may be influenced one by the other.
+As you can guess looking the repository, the codes are for both Java and Python. I'm writing those in parallel, so those may be influenced by each other.
 Comments are lacking, i'll try to remember to put some.
 
 So, here's a list of planned Design Pattern, based on what can be found [on wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern):
