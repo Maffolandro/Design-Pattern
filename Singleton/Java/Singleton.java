@@ -1,3 +1,5 @@
+package DesignPattern;
+
 public class Singleton {
 	private static Singleton instance = null; // Istanza della classe
 	
