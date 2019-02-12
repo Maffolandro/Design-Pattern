@@ -1,19 +1,19 @@
-Pattern per la creazione di una classe che può avere un'unica istanza.
+###### Pattern per la creazione di una classe che può avere un'unica istanza.
 
-****Pros
+#### Pros
 - Certezza della possibilità di creare al più un'unica istanza della classe;
 - Possibilità di richiamare l'istanza globalmente;
 
-****Cons
+#### Cons
 - Possono generare dipendenze nascoste se usati come variabili globali;
 
-**JAVA
+## JAVA
 - [x] README;
 - [x] Classi;
 - [ ] Esempio;
 - [ ] Test;
 
-**PYTHON
+## PYTHON
 - [x] README;
 - [x] Classi;
 - [ ] Esempio;
