@@ -1,4 +1,4 @@
-**Stato
+## Stato
 
 - [x] Prevenire chiamate esterne dal costruttore standard (ogni chiamata genera un'istanza);
   - [x] Rendere privato il costruttore
@@ -8,11 +8,11 @@
 - [x] Se il "costruttore alternativo" accetta parametri, gestirli direttamente li;
   - [x] Gestire parametri di getInstance() dopo la memorizzazione dell'istanza;
 
-****Cons
+#### Cons
 - Occorre ricordarsi di non bypassare il costruttore alternativo con altri metodi;
 - ?Come funzionano eventuali sottoclassi?
 
-**Test
+## Test
 - [ ] Controllare che il costruttore standard non possa essere richiamato;
 - [ ] Controllare comportamento costruttore alternativo;
   - [ ] Salvare due riferimenti e controllare che si riferiscano alla stessa istanza;
