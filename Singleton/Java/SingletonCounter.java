@@ -6,13 +6,10 @@ public class SingletonCounter {
 	/* #### Metodi per la definizione del Singleton ####
 	 * #### NON MODIFICARE ####
 	 */
-	private static SingletonCounter instance = null; // Istanza della classe
+	private static SingletonCounter instance = new SingletonCounter(); // Istanza della classe
 	
 	// Fornire "costruttore alternativo" che genera l'istanza se non presente, poi la richiama
 	public static synchronized getInstance(Object... args) {
-		if (instance == null) {
-			instance = new SingletonCounter();
-		}
 		initialize(args);
 		return instance;
 	};
@@ -42,16 +39,21 @@ public class SingletonCounter {
 	public static void getVal() {
 		System.out.println(val);
 	}
+	
+	// main per vedere il funzionamento della classe
+	public static void main(String[] args) {
+		System.out.println("Richiamo l'istanza passandole il valore 10.");
+		SingletonCounter.getInstance(10);
+		System.out.println("Aggiungo 10 al valore presente.");
+		SingletonCounter.addval(10);
+		System.out.println("Richiamo l'istanza (azzerandone implicitamente il valore).");
+		SingletonCounter.getInstance();
+		System.out.println("Aggiungo 15 al valore presente.");
+		SingletonCounter.addval(15);
+		System.out.println("Valore di Counter: " + SingletonCounter.getval());
+	}
+
 }
 
 //////// TEST ////////
 
-public class SingletonExample {
-	public static void main(String[] args) {
-		SingletonCounter.getInstance(10); // set to 10
-		SingletonCounter.addval(10); // add 10
-		SingletonCounter.getInstance(); // set to 0
-		SingletonCounter.addval(15);  // add 15
-		System.out.println("Valore di Counter: " + SingletonCounter.getval()); // Should be 15
-	}
-}
