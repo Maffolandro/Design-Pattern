@@ -6,12 +6,12 @@ public class SingletonCounter {
 	/* #### Metodi per la definizione del Singleton ####
 	 * #### NON MODIFICARE ####
 	 */
-	private static Singleton instance = null; // Istanza della classe
+	private static SingletonCounter instance = null; // Istanza della classe
 	
 	// Fornire "costruttore alternativo" che genera l'istanza se non presente, poi la richiama
 	public static synchronized getInstance(Object... args) {
 		if (instance == null) {
-			instance = new Singleton();
+			instance = new SingletonCounter();
 		}
 		initialize(args);
 		return instance;
