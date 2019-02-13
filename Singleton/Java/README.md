@@ -10,7 +10,6 @@
 
 #### Cons
 - Occorre ricordarsi di non bypassare il costruttore alternativo con altri metodi;
-- ?Come funzionano eventuali sottoclassi?
 
 ## Test
 - [ ] Controllare che il costruttore standard non possa essere richiamato;
