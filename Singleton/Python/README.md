@@ -7,9 +7,7 @@
 
 #### Cons
 - Design Pattern non evidente
-- ?Come funzionano eventuali sottoclassi?
 
 ## TEST
 - [ ] Controllare l'esistenza di al più un'unica istanza;
 - [ ] Controllare il comportamento con parametri;
-- [ ] COntrollare ereditarietà;
