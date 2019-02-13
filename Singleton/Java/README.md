@@ -19,4 +19,3 @@
 - [ ] Controllare gestione parametri;
   - [ ] Chiamare costruttore alternativo con parametri, verificare stato istanza;
   - [ ] Richiamare costruttore alternativo con parametri, verificare stato istanza;
-- [ ] Controllare comportamento sottoclassi;
