@@ -1,5 +1,3 @@
-package DesignPattern;
-
 public class Singleton {
 	/* #### Metodi per la definizione del Singleton ####
 	 * #### NON MODIFICARE ####
