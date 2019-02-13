@@ -12,10 +12,11 @@
 - Occorre ricordarsi di non bypassare il costruttore alternativo con altri metodi;
 
 ## Test
-- [ ] Controllare che il costruttore standard non possa essere richiamato;
-- [ ] Controllare comportamento costruttore alternativo;
-  - [ ] Salvare due riferimenti e controllare che si riferiscano alla stessa istanza;
-  - [ ] Controllare che non sia possibile modificare il riferimento all'istanza nella classe;
-- [ ] Controllare gestione parametri;
-  - [ ] Chiamare costruttore alternativo con parametri, verificare stato istanza;
-  - [ ] Richiamare costruttore alternativo con parametri, verificare stato istanza;
+- [x] Controllare che il costruttore standard non possa essere richiamato;
+  - Aggiunto controllo per parametri non validi in getInstance;
+- [x] Controllare comportamento costruttore alternativo;
+  - [x] Salvare due riferimenti e controllare che si riferiscano alla stessa istanza;
+  - [x] Controllare che non sia possibile modificare il riferimento all'istanza nella classe;
+- [x] Controllare gestione parametri;
+  - [x] Chiamare costruttore alternativo con parametri, verificare stato istanza;
+  - [x] Richiamare costruttore alternativo con parametri, verificare stato istanza;
