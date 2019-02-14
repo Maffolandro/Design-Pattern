@@ -29,10 +29,10 @@ public class Husband {
   public void takeOutTrash() {
     callInit();
     if (thrash.length() > 0) {
-      System.out.println(trash.pop() + " thrown away.")
+      System.out.println(trash.pop() + " thrown away.");
     }
     else {
-      System.out.println("Already done!")
+      System.out.println("Already done!");
     }
   }
   
