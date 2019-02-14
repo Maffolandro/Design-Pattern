@@ -1,13 +1,13 @@
 ## STATO
-- [ ] _A_;
-  - [ ] _A1_;
-  - [ ] _A2_;
-- [ ] _B_;
+- [x] Aggiungere funzione per lazy initialization;
+  - Aggiunta variabile contenente i dati per l'inizializzazione;
+  - Separato controllo inizializzazione da inizializzazione vera e propria
+- [x] Richiamare la lazy initialization all'interno della funzione in cui è necessario;
+  - [x] Aggiungere variabile privata per controllare inizializzazione;
 
 #### Cons
-- _G_
+- Occorre specificare la lazy initialization per ogni nuova funzione che richiede lo stato interno;
 
 ## TEST
-- [ ] _X_;
-  - [ ] _X1_;
-- [ ] _Y_;
+- [ ] Controllare stato prima e dopo l'inizializzazione;
+- [ ] Controllare tempi di esecuzione alla prima e alle successive chiamate;
