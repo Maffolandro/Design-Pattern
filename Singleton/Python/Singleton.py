@@ -1,5 +1,5 @@
-class Singleton():
-	_instance = Singleton(); # Riferimento all'unica istanza della classe
+class Singleton:
+	_instance = None; # Riferimento all'unica istanza della classe
 	
 	# Crea un nuovo oggetto solamente se non esiste ancora, restituisce sempre il valore di __instance
 	def __new__(cls, *args, **kwargs):
