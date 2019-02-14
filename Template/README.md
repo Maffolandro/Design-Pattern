@@ -2,8 +2,14 @@
 ###### _DESCRIZIONE_
 
 #### Pros
+- _A_
+- _B_
+- _C_
 
 #### Cons
+- _X_
+- _Y_
+- _Z_
 
 ## JAVA
 - [ ] README;
