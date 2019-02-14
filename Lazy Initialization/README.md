@@ -13,7 +13,7 @@
 - [x] README;
 - [x] Classi;
 - [x] Esempio;
-- [ ] Test;
+- [X] Test;
 
 ## PYTHON
 - [ ] README;
