@@ -10,7 +10,7 @@ So, here's a list of planned Design Pattern, based on what can be found [on wiki
 #### Creational
 ###### High Priority
 - ![0%](http://progressed.io/bar/0) Abstract Factory
-- ![0%](http://progressed.io/bar/0) Lazy Initialization
+- ![40%](http://progressed.io/bar/40) Lazy Initialization
 - ![0%](http://progressed.io/bar/0) Dependency Injection
 - ![0%](http://progressed.io/bar/0) Prototype
 ###### Low Priority
