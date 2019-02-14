@@ -42,7 +42,6 @@ public class Husband {
   }
 }
 
-public class Example {
   public static void main(String[] args) {
     Husband Mark = new Husband(["Bottle", "Bottle", "Pizza's leftover", "Diaper", "Tin", "Tin", "Rotten apple", "Plastic bag"])
     for (int i=0; i < 10; i++) {
