@@ -9,5 +9,5 @@
 - Occorre specificare la lazy initialization per ogni nuova funzione che richiede lo stato interno;
 
 ## TEST
-- [ ] Controllare stato prima e dopo l'inizializzazione;
-- [ ] Controllare tempi di esecuzione alla prima e alle successive chiamate;
+- [X] Controllare stato prima e dopo l'inizializzazione;
+- [X] Controllare tempi di esecuzione alla prima e alle successive chiamate;
