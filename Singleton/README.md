@@ -1,4 +1,4 @@
-# Singleton
+# Singleton [x][x][x][ ]
 ###### Pattern per la creazione di una classe che può avere un'unica istanza.
 
 #### Pros
@@ -7,6 +7,9 @@
 
 #### Cons
 - Possono generare dipendenze nascoste se usati come variabili globali;
+- Violano il principio di singola responsabilità;
+- Possono causare associazioni strette all'interno del codice;
+- Il loro stato dipende da tutta la durata dell'applicazione.
 
 ## JAVA
 - [x] README;
