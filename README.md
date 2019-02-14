@@ -66,4 +66,4 @@ So, here's a list of planned Design Pattern, based on what can be found [on wiki
 #### Architectural
 
 ## Citations
-Progress bar for wiki found at github.com/fehmicansaglam/progressed.io;
+Progress bar for wiki found [here](github.com/fehmicansaglam/progressed.io);
