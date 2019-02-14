@@ -1,4 +1,4 @@
-# Singleton [x][x][x][ ]
+# Singleton
 ###### Pattern per la creazione di una classe che può avere un'unica istanza.
 
 #### Pros
