@@ -16,7 +16,7 @@
 - [X] Test (non eseguito);
 
 ## PYTHON
-- [ ] README;
-- [ ] Classi;
+- [x] README;
+- [x] Classi;
 - [ ] Esempio;
 - [ ] Test;
