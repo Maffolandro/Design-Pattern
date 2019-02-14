@@ -1,4 +1,5 @@
 class Lazy:
+  #### NON MODIFICARE ####
   def __init__(self, *args):
     self._initialized = false;
     self._data = args;
@@ -8,6 +9,7 @@ class Lazy:
       self._initialized = true;
       _lazyInit(*self._data); #(check how to unzip?)
   
+  #### MODIFICARE DA QUI IN POI ####
   # Inserire qui eventuali variabili statiche
   
   def _lazyInit(self, *args):
