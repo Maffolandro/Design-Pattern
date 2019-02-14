@@ -1,54 +1,19 @@
-
-
-
-import java.util.Arraylist;
-
-public class Husband {
+class Lazy:
+  def __init__(self, *args):
+    self._initialized = false;
+    self._data = args;
   
-  //// NON MODIFICARE ////
-  private boolean initialized = false;
-  private Object[] data; // dati per l'inizializzazione dell'istanza
+  def _callInit(self):
+    if not self._initialized:
+      self._initialized = true;
+      _lazyInit(*self._data); #(check how to unzip?)
   
-  // Costruttore, tiene in memoria i dati per l'inizializzazione
-  public void Lazy(Object... args) {
-    this.data = args;
-  }
+  # Inserire qui eventuali variabili statiche
   
-  private synchronized void callInit() {
-    if !(this.initialized) {
-      this.initialized = true;
-      lazyInit(this.data);
-    }
-  }
+  def _lazyInit(self, *args):
+    # Inserire qui l'inizializzazione
+    pass;
   
-  //// MODIFICARE DA QUI IN POI ////
-  
-  private ArrayList<String> trash;
-  
-  private void lazyInit(String[] objects) {
-    trash = new ArrayList<>(objects);
-  }
-  
-  public void takeOutTrash() {
-    callInit();
-    if (thrash.length() > 0) {
-      System.out.println(trash.pop() + " thrown away.")
-    }
-    else {
-      System.out.println("Already done!")
-    }
-  }
-  
-  // Only for testing purpose
-  public String getStatus() {
-    return this.initialized;
-  }
-}
-
-  public static void main(String[] args) {
-    Husband Mark = new Husband(["Bottle", "Bottle", "Pizza's leftover", "Diaper", "Tin", "Tin", "Rotten apple", "Plastic bag"])
-    for (int i=0; i < 10; i++) {
-      Husband.takeOutThrash();
-    }
-  }
-}
+  def wakeup(self):
+    _callInit();
+    # Inserire logica metodo
