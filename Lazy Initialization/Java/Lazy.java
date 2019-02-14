@@ -9,7 +9,7 @@ public class Lazy {
     this.data = args;
   }
   
-  private void callInit() {
+  private synchronized void callInit() {
     if !(this.initialized) {
       this.initialized = true;
       lazyInit(this.data);
