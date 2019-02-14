@@ -6,12 +6,12 @@
 - Riduce i tempi di caricamento iniziali;
 
 #### Cons
-- Il tempo per l'inizializzazione dei singoli oggetti aumenta leggermente;
+- Maggior consumo di risorse per ciascun singolo oggetto;
 - Necessaria sincronizzazione durante l'inizializzazione per evitare la corruzione dei dati;
 
 ## JAVA
-- [ ] README;
-- [ ] Classi;
+- [x] README;
+- [x] Classi;
 - [ ] Esempio;
 - [ ] Test;
 
