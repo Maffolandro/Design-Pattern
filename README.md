@@ -9,58 +9,61 @@ So, here's a list of planned Design Pattern, based on what can be found [on wiki
 
 #### Creational
 ###### High Priority
-- [ ] Abstract Factory
-- [ ] Lazy Initialization
-- [ ] Dependency Injection
-- [ ] Prototype
-- [ ] Singleton
+- ![0%](http://progressed.io/bar/0) Abstract Factory
+- ![0%](http://progressed.io/bar/0) Lazy Initialization
+- ![0%](http://progressed.io/bar/0) Dependency Injection
+- ![0%](http://progressed.io/bar/0) Prototype
 ###### Low Priority
-- [ ] Builder
-- [ ] Factory Method
-- [ ] RAII
+- ![0%](http://progressed.io/bar/0) Builder
+- ![0%](http://progressed.io/bar/0) Factory Method
+- ![0%](http://progressed.io/bar/0) RAII
+- ![75%](http://progressed.io/bar/75) Singleton
 
 
 #### Structural
 ###### High Priority
-- [ ] Adapter
-- [ ] Composite
-- [ ] Decorator
-- [ ] Facade
-- [ ] Proxy
+- ![0%](http://progressed.io/bar/0) Adapter
+- ![0%](http://progressed.io/bar/0) Composite
+- ![0%](http://progressed.io/bar/0) Decorator
+- ![0%](http://progressed.io/bar/0) Facade
+- ![0%](http://progressed.io/bar/0) Proxy
 ###### Low Priority
-- [ ] Bridge
-- [ ] Delegation
-- [ ] Flyweight
-- [ ] Front Controller
-- [ ] Marker Interface
-- [ ] Twin
+- ![0%](http://progressed.io/bar/0) Bridge
+- ![0%](http://progressed.io/bar/0) Delegation
+- ![0%](http://progressed.io/bar/0) Flyweight
+- ![0%](http://progressed.io/bar/0) Front Controller
+- ![0%](http://progressed.io/bar/0) Marker Interface
+- ![0%](http://progressed.io/bar/0) Twin
 
 
 #### Behavioral
 ###### High Priority
-- [ ] Chain of responsibility
-- [ ] Command
-- [ ] Mediator
-- [ ] Memento
-- [ ] Observer
-- [ ] State
-- [ ] Template
-- [ ] Visitor
+- ![0%](http://progressed.io/bar/0) Chain of responsibility
+- ![0%](http://progressed.io/bar/0) Command
+- ![0%](http://progressed.io/bar/0) Mediator
+- ![0%](http://progressed.io/bar/0) Memento
+- ![0%](http://progressed.io/bar/0) Observer
+- ![0%](http://progressed.io/bar/0) State
+- ![0%](http://progressed.io/bar/0) Template
+- ![0%](http://progressed.io/bar/0) Visitor
 ###### Low Priority
-- [ ] Interpreter
-- [ ] Servant
-- [ ] Strategy
+- ![0%](http://progressed.io/bar/0) Interpreter
+- ![0%](http://progressed.io/bar/0) Servant
+- ![0%](http://progressed.io/bar/0) Strategy
 
 
 #### Functional
 ###### High Priority
-- [ ] Closure
-- [ ] Currying
+- ![0%](http://progressed.io/bar/0) Closure
+- ![0%](http://progressed.io/bar/0) Currying
 ###### Low Priority
-- [ ] Function Composition
-- [ ] Monad
-- [ ] Generator
+- ![0%](http://progressed.io/bar/0) Function Composition
+- ![0%](http://progressed.io/bar/0) Monad
+- ![0%](http://progressed.io/bar/0) Generator
 
 
 #### Concurrency
 #### Architectural
+
+## Citations
+Progress bar for wiki found at github.com/fehmicansaglam/progressed.io;
