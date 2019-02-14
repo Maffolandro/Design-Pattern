@@ -1,4 +1,4 @@
-class Lazy:
+class EXAMPLE:
   #### NON MODIFICARE ####
   ##
   ##
