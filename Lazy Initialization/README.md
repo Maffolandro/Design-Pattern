@@ -11,9 +11,9 @@
 
 ## JAVA
 - [x] README;
-- [x] Classi;
-- [x] Esempio;
-- [X] Test;
+- [x] Classi (non eseguito);
+- [x] Esempio (non eseguito);
+- [X] Test (non eseguito);
 
 ## PYTHON
 - [ ] README;
