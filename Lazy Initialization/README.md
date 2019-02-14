@@ -12,7 +12,7 @@
 ## JAVA
 - [x] README;
 - [x] Classi;
-- [ ] Esempio;
+- [x] Esempio;
 - [ ] Test;
 
 ## PYTHON
