@@ -35,6 +35,11 @@ public class Husband {
       System.out.println("Already done!")
     }
   }
+  
+  // Only for testing purpose
+  public String getStatus() {
+    return this.initialized;
+  }
 }
 
 public class Example {
