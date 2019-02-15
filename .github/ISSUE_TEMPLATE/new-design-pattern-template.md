@@ -1,7 +1,7 @@
 ---
 name: New design pattern template
 about: Template for new design pattern requests.
-title: ''
+title: Implement
 labels: ''
 assignees: ''
 
